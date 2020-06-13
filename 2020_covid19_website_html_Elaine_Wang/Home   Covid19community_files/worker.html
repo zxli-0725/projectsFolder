@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wix Pro Gallery Worker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="origin">
+    
+    <script>
+      window.staticsVersion="2.1794.0";
+      window.staticBaseUrl="//static.parastorage.com/";
+      window.staticsUrl="https://static.parastorage.com/services/pro-gallery-statics/2.1794.0/";
+      window.instance = "opKwrfrux2KiHFOfwlUvqETgUy6aCKRnd4Xm7kJSs5A.eyJpbnN0YW5jZUlkIjoiNDVmNDM3MGYtNTJiZS00ZmIwLTk4NTYtZTNmM2JmMTNjNmU1IiwiYXBwRGVmSWQiOiIxNDI3MWQ2Zi1iYTYyLWQwNDUtNTQ5Yi1hYjk3MmFlMWY3MGUiLCJtZXRhU2l0ZUlkIjoiYzBhODBmMjItYmE2Ni00YjQ4LThiZGYtYmE4NGUwYzNlOGYzIiwic2lnbkRhdGUiOiIyMDIwLTA0LTI5VDIyOjA1OjMyLjgxM1oiLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiJhYjM4YTcxNy1mZDZmLTQwYmEtOGY4Yy03NmQ2Mzg0MWM0ZjkiLCJhaWQiOiI3ZTA2MzI1OC0xMzI0LTQ5YTgtOGQ4Yi1jNGI5MjhiYTYyN2EiLCJiaVRva2VuIjoiODU1YzM4MmQtZThkOC0wNGY4LTEzODktNTk3NzVmZDAyZTE2Iiwic2l0ZU93bmVySWQiOiIzNTBkYjBmMi1iMWJmLTQ3MTItODA3OS0yNjQ5ZmJjOWU2MDYifQ";
+      window.instanceId = "45f4370f-52be-4fb0-9856-e3f3bf13c6e5";
+      window.isStore = "false";
+      window.proGalleryWidget = 'Worker';
+      window.isWorker = true;
+      window.isProGallery = true;
+
+      console.log("Worker Statics Version", window.staticsVersion);
+
+      try {
+        window.petri = {"specs.pro-gallery.useOOICart":"true","specs.pro-gallery.newFullscreenShare":"true","specs.pro-gallery.useCustomElement":"true","specs.pro-gallery.hlsVideos":"true","specs.pro-gallery.useArtStoreInAlbums":"true","specs.LinguistProGalleryIntegrationSpec":"false","specs.pro-gallery.allowVideosInCms":"wix","specs.pro-gallery.toggleShowArrows":"false","specs.pro-gallery.appSettings":"true"};
+      } catch (e) {
+        window.petri = {};
+      }
+    </script>
+  <style wix-style="">.Title{ font:normal normal normal 24px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Menu{ font:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Page-title{ font:normal normal normal 70px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Heading-XL{ font:normal normal bold 38px/1.4em questrial,sans-serif; } .Heading-L{ font:normal normal normal 35px/1.4em "palatino linotype",serif; } .Heading-M{ font:normal normal normal 24px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Heading-S{ font:normal normal normal 24px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Body-L{ font:normal normal normal 22px/1.4em avenir-lt-w01_35-light1475496,sans-serif; } .Body-M{ font:normal normal normal 19px/1.4em avenir-lt-w01_35-light1475496,sans-serif; } .Body-S{ font:normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif; } .Body-XS{ font:normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="worker_data/css.css" id="wix-google-fonts"><link type="text/css" rel="stylesheet" href="worker_data/languages.css"><style>:focus {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible:focus,
+.js-focus-visible .focus-visible:focus ~ .wixSdkShowFocusOnSibling
+{
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 1px 2px #3899EC;
+}
+</style><script src="worker_data/focus-visible.js" id="dynamic_script_FOCUS_VISIBLE"></script></head>
+
+  <body class="js-focus-visible">
+    <script src="worker_data/wix-private.js" crossorigin="anonymous"></script>
+    
+    <script>
+      function loadJS(filePath) {
+        var fileref = document.createElement('link');
+        fileref.setAttribute('rel', 'prefetch');
+        fileref.setAttribute('href', filePath);
+        document.getElementsByTagName('head')[0].appendChild(fileref);
+      }
+
+      try {
+        var Wix = window.Wix;
+        if (Wix && Wix.Worker && Wix.Worker.Utils) {
+          if (Wix.Worker.Utils.getViewMode() == 'editor') {
+            loadJS('//static.parastorage.com/services/editor-ui-lib/1.28.0/lib/editor-ui-lib-jquery.min.js');
+            loadJS('//static.parastorage.com/services/editor-ui-lib/1.28.0/lib/editor-ui-lib-angular.min.js');
+
+            if (window.location.search.toLowerCase().indexOf('isstore') > -1) {
+              var wixAddEventListener = Wix.Worker.addEventListener || Wix.addEventListener;
+              if (wixAddEventListener && typeof wixAddEventListener === 'function') {
+                wixAddEventListener(Wix.Events.SITE_PUBLISHED, function(e) {
+                  const xhr = new XMLHttpRequest();
+                  xhr.open('POST', '/api/v1/store/publish?instance=' + window.instance + '&isStore=true');
+                  xhr.withCredentials = true;
+                  xhr.setRequestHeader('Content-Type', 'application/json');
+                  xhr.send();
+                });
+              }
+            }
+
+          }
+        } else {
+          console.error('Wix.Worker.Utils isn\'t defined on worker.vm', Wix);
+        }
+      } catch (error) {
+        console.error('preload and publish event error', error);
+      }
+    </script>
+    <script>
+      try {
+        document.domain = 'wix.com';
+      } catch (e) {
+        console.log("couldn't set subdomain to wix.com");
+      }
+    </script>
+    <script src="worker_data/bundle.js" crossorigin="anonymous"></script>
+    <script>Sentry.init({ dsn: 'https://e8da9340b9594a029c2f6c127517893d@sentry.wixpress.com/111', environment: 'worker' });</script>
+  
+
+</body></html>
